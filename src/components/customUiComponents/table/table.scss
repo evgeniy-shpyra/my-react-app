@@ -1,0 +1,19 @@
+.table {
+    &__body {
+        display: inline-grid;
+
+        background-color: var(--bg-page-secondary);
+        border: 1px solid var(--border-primary);
+        padding: 15px;
+    }
+
+    &__item {
+        padding: 10px;
+        border: 1px solid var(--border-primary);
+        text-align: center;
+
+        &_title {
+            padding: 10px;
+        }
+    }
+}
